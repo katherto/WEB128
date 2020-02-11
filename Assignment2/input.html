@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Process the HTML form data with the POST method</title>
+    </head>
+    <body>
+        <form name="myform" action="process.php" method="POST">
+            Name: <input type="text" name="Name" /><br />
+            Password: <input type="password" name="Password" maxlength="10" /><br />
+            Select something from the list: <select name="Seasons">
+                <option value="Spring" >Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Autumn" selected="selected">Autumn</option>
+                <option value="Winter">Winter</option>
+            </select><br /><br />
+            Choose one:
+                <input type="radio" name="Country" value="USA" /> USA
+                <input type="radio" name="Country" value="Canada" /> Canada
+                <input type="radio" name="Country" value="Other" /> Other
+            <br />
+            Choose the colors:
+                <input type="checkbox" name="Colors1" value="green" checked="checked" /> Green
+                <input type="checkbox" name="Colors2" value="yellow" /> Yellow
+                <input type="checkbox" name="Colors3" value="red" /> Red
+                <input type="checkbox" name="Colors4" value="gray" /> Gray
+            <br /><br />
+            Comments:<br />
+                <textarea name="Comments" rows="10" cols="60">Enter your comments here</textarea><br />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
