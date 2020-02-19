@@ -1,0 +1,3 @@
+# WEB 128 PHP & MySQL
+
+These are the various projects and assignments for the PHP & MySQL course at JCCC during my fall 2019 semester.  This was my first time working with a server scripting language.  Fortunately, due to previous programming experience and my understanding of OOP languages this wasn't too hard to understand.  Of note, the blackjack game I challenged myself with and improved was particularly fun to do and enhanced my understanding of some PHP specific ideas.
